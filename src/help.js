@@ -4,14 +4,14 @@ const help = (prefix, botname, oname) => {
 
 ◪ *INFO*
   ❏ Prefixo: 「  ${prefix}  」
-  ❏ Criador: 𝐃𝐄𝐕 𝐉𝐀𝐕𝐀
+  ❏ O Criador: 𝐃𝐄𝐕 𝐉𝐀𝐕𝐀 𝐀𝐍𝐃 𝐀𝐍𝐎𝐍𝐘 & 𝐃𝐄𝐕 𝐃𝐀𝐑𝐊
 ◪ *SOBRE*
   │
   ├─ ❏ ${prefix}info
   ├─ ❏ ${prefix}blocklist
   ├─ ❏ ${prefix}chatlist
   └─ ❏ ${prefix}bugreport
-◪ *MAKER*
+◪ *CRIADOR*
   │
   ├─ ❏ ${prefix}sticker
   ├─ ❏ ${prefix}stickergif
@@ -29,21 +29,21 @@ const help = (prefix, botname, oname) => {
   └─ ❏ ${prefix}quotemaker
 ◪ *MEDIA*
   │
-  ├─ ❏ ${prefix}trendtwit
+  ├─ ❏ ${prefix}tendência
   └─ ❏ ${prefix}ytsearch
 ◪ *EDUCAÇÃO*
   │
   ├─ ❏ ${prefix}wiki
   ├─ ❏ ${prefix}wikien
-  ├─ ❏ ${prefix}nulis
-  ├─ ❏ ${prefix}quotes
-  ├─ ❏ ${prefix}quotes2
-  └─ ❏ ${prefix}artinama
-◪ *TANYA*
+  ├─ ❏ ${prefix}Escreva
+  ├─ ❏ ${prefix}citações
+  ├─ ❏ ${prefix}citações2
+  └─ ❏ ${prefix}Artinama
+◪ *Categoria Indefinido*
   │
-  ├─ ❏ ${prefix}apakah
-  ├─ ❏ ${prefix}kapankah
-  └─ ❏ ${prefix}bisakah
+  ├─ ❏ ${prefix}oque
+  ├─ ❏ ${prefix}quando
+  └─ ❏ ${prefix}vocêpode
 ◪ *DOWNLOADER*
   │
   ├─ ❏ ${prefix}pinterest
@@ -57,8 +57,8 @@ const help = (prefix, botname, oname) => {
   └─ ❏ ${prefix}memeindo
 ◪ *GRUPO*
   │
-  ├─ ❏ ${prefix}opengc
-  ├─ ❏ ${prefix}closegc
+  ├─ ❏ ${prefix}abrirgp
+  ├─ ❏ ${prefix}fechargp
   ├─ ❏ ${prefix}promote
   ├─ ❏ ${prefix}demote
   ├─ ❏ ${prefix}tagall
@@ -84,7 +84,7 @@ const help = (prefix, botname, oname) => {
   └─ ❏ ${prefix}chord
 ◪ *ISLAMISMO*
   │
-  └─ ❏ ${prefix}quran
+  └─ ❏ ${prefix}Alcorão
 ◪ *STALK*
   │
   ├─ ❏ ${prefix}tiktokstalk
@@ -103,19 +103,19 @@ const help = (prefix, botname, oname) => {
   └─ ❏ ${prefix}nsfwneko
 ◪ *DIVERSÃO*
   │
-  ├─ ❏ ${prefix}alay
-  ├─ ❏ ${prefix}gantengcek
-  ├─ ❏ ${prefix}watak
-  ├─ ❏ ${prefix}hobby
-  ├─ ❏ ${prefix}game
-  ├─ ❏ ${prefix}bucin
-  └─ ❏ ${prefix}glitch
-◪ *INFORMAÇÃO*
+  ├─ ❏ ${prefix}regimento
+  ├─ ❏ ${prefix}bonito
+  ├─ ❏ ${prefix}personagem
+  ├─ ❏ ${prefix}passatempo
+  ├─ ❏ ${prefix}jogos
+  ├─ ❏ ${prefix}Bucine
+  └─ ❏ ${prefix}falha
+◪ *EM FORMAÇÃO*
   │
-  ├─ ❏ ${prefix}bahasa
-  ├─ ❏ ${prefix}kodenegara
+  ├─ ❏ ${prefix}língua
+  ├─ ❏ ${prefix}nomedecódigo
   ├─ ❏ ${prefix}kbbi
-  ├─ ❏ ${prefix}fakta
+  ├─ ❏ ${prefix}facto
   ├─ ❏ ${prefix}infocuaca
   └─ ❏ ${prefix}covid
 ◪ *PROPRIETÁRIO*
@@ -125,10 +125,10 @@ const help = (prefix, botname, oname) => {
   ├─ ❏ ${prefix}bc
   ├─ ❏ ${prefix}bcgc
   └─ ❏ ${prefix}clearall
-◪ *OUTROS*
+◪ *DE OUTROS*
   │
-  ├─ ❏ ${prefix}send
-  ├─ ❏ ${prefix}wame
+  ├─ ❏ ${prefix}enviar
+  ├─ ❏ ${prefix}elessão
   ├─ ❏ ${prefix}virtex
   ├─ ❏ ${prefix}exe
   ├─ ❏ ${prefix}qrcode
