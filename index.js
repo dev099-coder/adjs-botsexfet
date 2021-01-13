@@ -151,7 +151,7 @@ async function starts() {
 					ownerB: '[❗] Este comando só pode ser usado pelo bot proprietário! ❌',
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: '[❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
-                                        daftarB: `──「 LISTA 」──\nOlá como !\nVocê não está registrado no banco de dados, \n\nComando : ${prefix}daftar nome|idade\nExemplo : ${prefix}daftar Lightbot|1`,
+                                        daftarB: `──「 LISTA 」──\nOlá como !\nVocê não está registrado no banco de dados, \n\nComando : ${prefix}cadastro nome|idade\nExemplo : ${prefix}cadastro Lightbot|1`,
 				}
 			}
     			const apakah = ['sim','Não']
@@ -470,7 +470,7 @@ async function starts() {
 						fs.unlinkSync(rano)
 					})
 					break
-				case 'Escreva': 
+				case 'escreva': 
 				case 'tulis': ini
 					if (args.length < 1) return reply('Eu disse para você escrever, irmã?')
                                         if (!isUser) return reply(mess.only.daftarB)
@@ -828,7 +828,7 @@ async function starts() {
            }
            client.sendMessage(from, options, text, { quoted: mek } )
 				break
-           case 'Alcorão':
+           case 'alcorão':
 					anu = await fetchJson(`https://api.banghasan.com/quran/format/json/acak`, {method: 'get'})
 					quran = `${anu.acak.ar.teks}\n\n${anu.acak.id.teks}\nQ.S ${anu.surat.nama} ayat ${anu.acak.id.ayat}`
 					client.sendMessage(from, quran, text, {quoted: mek})
