@@ -139,7 +139,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '⌛ Em processo ⌛',
+				wait: '⌛Em processo⌛',
 				success: '✔️ Funciona ✔️',
 				error: {
 					stick: '[❗] Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
@@ -154,9 +154,9 @@ async function starts() {
                                         daftarB: `──「 LISTA 」──\nOlá como !\nVocê não está registrado no banco de dados, \n\nComando : ${prefix}cadastro nome|idade\nExemplo : ${prefix}cadastro Lightbot|1`,
 				}
 			}
-    			const apakah = ['sim','Não']
-        		const bisakah = ['lata','Não lata']
-		        const kapankah = ['Mais dias','Outra semana','A lua de novo','Outro ano']
+    			const apakah = ['Ya','Tidak']
+        		const bisakah = ['Bisa','Tidak Bisa']
+		        const kapankahp = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
 			const ownerNumber = ["5511946817667@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
